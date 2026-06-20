@@ -31,5 +31,6 @@ stdenv.mkDerivation {
     homepage = "https://github.com/ximimoments/katifetch";
     license = licenses.mit;
     platforms = platforms.linux;
+    mainProgram = "katifetch";
   };
 }
